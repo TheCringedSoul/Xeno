@@ -36,8 +36,8 @@ export default function LoginButton() {
           </button>
         </div>
       ) : (
-        <div className="text-blue-600">
-          <p className="text-lg">Sign in to get started</p>
+        <div className="text-blue-600 items-center justify-center flex  flex-col ">
+          <p className="text-lg my-5">Sign in to get started</p>
           <button
             onClick={() => signIn("google")}
             className="flex items-center justify-center px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white rounded-lg shadow-lg focus:outline-none"
@@ -45,6 +45,7 @@ export default function LoginButton() {
             Sign in with Google
           </button>
         </div>
+
       )}
     </div>
   );
