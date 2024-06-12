@@ -63,7 +63,7 @@ const CampaignForm = () => {
                     <option value="">Select Field</option>
                     <option value="totalSpends">Total Spends</option>
                     <option value="visited">Times Visited</option>
-                    <option value="activeAt">Last Active</option>
+                    <option value="activeAt">Active before last duration</option>
                 </select>
             </div>
             {newRule.field === 'totalSpends' && (
